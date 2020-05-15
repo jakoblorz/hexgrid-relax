@@ -1,0 +1,28 @@
+{
+  "name": "hexgrid-relax",
+  "description": "Simple Electron.JS and Babylon.JS Hexgrid Relaxation implementation",
+  "version": "1.0.0",
+  "main": "./app/main.js",
+  "repository": "git@github.com:jakoblorz/hexgrid-relax.git",
+  "author": "Jakob Lorz <jakob@lorz.org>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "electron ./app/main.js",
+    "dist": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "babylonjs": "^4.1.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.33.0",
+    "electron": "^8.3.0",
+    "electron-builder": "^22.6.0",
+    "electron-reload": "^1.5.0",
+    "eslint": "^7.0.0",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.2"
+  }
+}
